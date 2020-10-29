@@ -8,6 +8,7 @@ if(recognition.start){
 recognition.start();
 recognition_started = true;
 }
+}
 function onend()
 {
 recognition.stop();
